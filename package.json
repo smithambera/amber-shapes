@@ -7,7 +7,8 @@
     "start": "start-storybook -s public -p 6006",
     "build": "build-storybook -s public",
     "chromatic:dev": "CHROMATIC_INDEX_URL=https://index.dev-chromatic.com chromatic --project-token=20fd967a28b0",
-    "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token=26fb05f42423"
+    "chromatic:staging": "CHROMATIC_INDEX_URL=https://index.staging-chromatic.com chromatic --project-token=26fb05f42423",
+    "chromatic": "npx chromatic --project-token 20fd967a28b0"
   },
   "dependencies": {
     "@emotion/core": "10.0.22",
