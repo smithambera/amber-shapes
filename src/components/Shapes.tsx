@@ -44,13 +44,13 @@ export const Square = (props: Props) => (
 );
 
 export const Triangle = (props: Props) => (
-  <Shape viewBox="0 0 96 88" xmlns="http://www.w3.org/2000/svg" color="#FFAE00" {...props}>
+  <Shape viewBox="0 0 96 88" xmlns="http://www.w3.org/2000/svg" color="teal" {...props}>
     <path d="M50.63 1.785l44.928 81.77A3 3 0 0192.928 88H3.072a3 3 0 01-2.629-4.445l44.929-81.77a3 3 0 015.258 0z" />
   </Shape>
 );
 
 export const T = (props: Props) => (
-  <Shape viewBox="0 0 92 62" xmlns="http://www.w3.org/2000/svg" color="#FC521F" {...props}>
+  <Shape viewBox="0 0 92 62" xmlns="http://www.w3.org/2000/svg" color="#orange" {...props}>
     <path d="M63 3v25a3 3 0 003 3h23a3 3 0 013 3v25a3 3 0 01-3 3H3a3 3 0 01-3-3V34a3 3 0 013-3h24a3 3 0 003-3V3a3 3 0 013-3h27a3 3 0 013 3z" />
   </Shape>
 );
