@@ -50,7 +50,7 @@ export const Triangle = (props: Props) => (
 );
 
 export const T = (props: Props) => (
-  <Shape viewBox="0 0 92 62" xmlns="http://www.w3.org/2000/svg" color="#FC521F" {...props}>
+  <Shape viewBox="0 0 92 62" xmlns="http://www.w3.org/2000/svg" color="#orange" {...props}>
     <path d="M63 3v25a3 3 0 003 3h23a3 3 0 013 3v25a3 3 0 01-3 3H3a3 3 0 01-3-3V34a3 3 0 013-3h24a3 3 0 003-3V3a3 3 0 013-3h27a3 3 0 013 3z" />
   </Shape>
 );
